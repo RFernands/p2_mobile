@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">p2_mobile</string>
+    <string name="foto_da_bebida">Foto da bebida</string>
+    <string name="nova_bebida">Nova Bebida</string>
+</resources>
