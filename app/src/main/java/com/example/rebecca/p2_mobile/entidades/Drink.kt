@@ -1,24 +1,16 @@
 package com.example.rebecca.p2_mobile.entidades
 
-data class Drink (val idDrink: Int,
+import java.io.Serializable
+
+data class Drink (val idDrink: String,
                   val strDrink: String,
-                  val strDrinkES: String,
-                  val strDrinkDE: String,
-                  val strDrinkFR: String,
-                  val strDrinkZH_HANS: String,
-                  val strDrinkZH_HANT: String,
-                  val strVideo: String,
                   val strCategory: String,
-                  val strIBA: String,
                   val strAlcoholic: String,
                   val strGlass: String,
-                  val strInstructions: String,
-                  val strInstructionsES: String,
-                  val strInstructionsDE: String,
-                  val strInstructionsFR: String,
-                  val strInstructionsZH_HANS: String,
-                  val strInstructionsZH_HANT: String,
                   val strDrinkThumb: String,
+                  val strInstructions: String,
+
+
                   val strIngredient1: String,
                   val strIngredient2: String,
                   val strIngredient3: String,
@@ -34,6 +26,7 @@ data class Drink (val idDrink: Int,
                   val strIngredient13: String,
                   val strIngredient14: String,
                   val strIngredient15: String,
+
                   val strMeasure1: String,
                   val strMeasure2: String,
                   val strMeasure3: String,
@@ -49,5 +42,7 @@ data class Drink (val idDrink: Int,
                   val strMeasure13: String,
                   val strMeasure14: String,
                   val strMeasure15: String,
+
+                  val strSource: String,
                   val dateModified: String
-)
+) : Serializable

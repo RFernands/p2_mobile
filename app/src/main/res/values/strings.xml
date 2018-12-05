@@ -2,4 +2,13 @@
     <string name="app_name">p2_mobile</string>
     <string name="foto_da_bebida">Foto da bebida</string>
     <string name="nova_bebida">Nova Bebida</string>
+    <string name="bebida_nome">bebida_nome</string>
+    <string name="title_activity_detalhes_drinks">DetalhesDrinks</string>
+    <string name="categoria">categoria</string>
+    <string name="ingredientes">ingredientes</string>
+    <string name="quantidades">quatidades</string>
+    <string name="alcoolico">alcoolico</string>
+    <string name="copo">copo</string>
+    <string name="instrucoes">instruções</string>
+    <string name="title_activity_detail_drink">DetailDrink</string>
 </resources>
